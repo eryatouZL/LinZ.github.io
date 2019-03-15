@@ -101,6 +101,97 @@
 	   
 	<div class="article-header">
 	    
+		<a class="article-title" href="/hexo/2019/03/15/dealData/">关于处理数据的内容</a>  
+	       
+		 
+
+		<div class="article-meta">
+			<time>Mar 15, 2019</time>
+			
+		</div>
+	</div>
+
+
+	
+
+    
+	<div class="typo article-excerpt">	
+		 
+			<p>var arr = [{“purchaseItemName”:”ABS系统”,”singleItemSupplierList”:[{“id”:”8a818497684bb82701684bc1a4d30005”,”version”:null,”createTime”:null,”creatorId”:null,”creatorName”:null,”creatorDepartmentId”:null,”creatorDepartmentName”:null,”updateTime”:null,”updatorId”:null,”updatorName”:null,”updatorDepartmentId”:null,”updatorDepartmentName”:null,”current”:1,”rowCount”:10,”deleted”:false,”bzId”:null,”currentUser”:null,”isForbidden”:0,”channelId”:”8a808552650f8c37016537b5d6456acf”,”channelCode”:null,”channelName”:”上海申服信息科技有限公司”,”nonTaxQuotations”:416666.6700,”evaluateFinalPrice”:519999.4800,”finalPrice”:500000.0000,”unitePrice”:500000.0000,”invoiceTypeId”:1,”taxPoint”:20.0,”tax”:83333.3300,”finalSupplier”:null,”remarks”:”1111”,”orderNumber”:null,”isChecked”:1,”materialInformationId”:”2ebe4b8e770a4e599c20064230b5f7fb”,”purchaseItemId”:”62a035e5d0fa4564af9722433610dd7f”,”purchaseItemName”:”ABS系统”,”purchasingParameters”:null,”haveBeenCreated”:1,”businessScore”:null,”expertScore”:null,”procurementQuantity”:1},{“id”:”8a818497684bb82701684bc1a4d40006”,”version”:null,”createTime”:null,”creatorId”:null,”creatorName”:null,”creatorDepartmentId”:null,”creatorDepartmentName”:null,”updateTime”:null,”updatorId”:null,”updatorName”:null,”updatorDepartmentId”:null,”updatorDepartmentName”:null,”current”:1,”rowCount”:10,”deleted”:false,”bzId”:null,”currentUser”:null,”isForbidden”:0,”channelId”:”8a8085c25a11ffb1015ab0a9863511ce”,”channelCode”:null,”channelName”:”中通天鸿（北京）通信科技股份有限公司”,”nonTaxQuotations”:495049.5000,”evaluateFinalPrice”:499999.9900,”finalPrice”:499999.9900,”unitePrice”:499999.9900,”invoiceTypeId”:0,”taxPoint”:1.0,”tax”:4950.4900,”finalSupplier”:null,”remarks”:””,”orderNumber”:null,”isChecked”:1,”materialInformationId”:”2ebe4b8e770a4e599c20064230b5f7fb”,”purchaseItemId”:”62a035e5d0fa4564af9722433610dd7f”,”purchaseItemName”:”ABS系统”,”purchasingParameters”:null,”haveBeenCreated”:1,”businessScore”:null,”expertScore”:null,”procurementQuantity”:1},{“id”:”8a818497684bb82701684bc1a4d50007”,”version”:null,”createTime”:null,”creatorId”:null,”creatorName”:null,”creatorDepartmentId”:null,”creatorDepartmentName”:null,”updateTime”:null,”updatorId”:null,”updatorName”:null,”updatorDepartmentId”:null,”updatorDepartmentName”:null,”current”:1,”rowCount”:10,”deleted”:false,”bzId”:null,”currentUser”:null,”isForbidden”:0,”channelId”:”8a808553650f8eb10165362bd83c6080”,”channelCode”:null,”channelName”:”上海新晨信息集成系统有限公司”,”nonTaxQuotations”:0.0000,”evaluateFinalPrice”:80.0000,”finalPrice”:0.0000,”unitePrice”:0.0000,”invoiceTypeId”:1,”taxPoint”:0.0,”tax”:0.0000,”finalSupplier”:null,”remarks”:””,”orderNumber”:null,”isChecked”:1,”materialInformationId”:”2ebe4b8e770a4e599c20064230b5f7fb”,”purchaseItemId”:”62a035e5d0fa4564af9722433610dd7f”,”purchaseItemName”:”ABS系统”,”purchasingParameters”:null,”haveBeenCreated”:1,”businessScore”:null,”expertScore”:null,”procurementQuantity”:1}],”purchasingParameters”:”<em>“,”costSavingType”:1,”purchaseItemId”:”62a035e5d0fa4564af9722433610dd7f”,”isForbidden”:0,”isSaved”:”1”,”saveMoney”:10000.0000},{“purchaseItemName”:”平板电脑”,”singleItemSupplierList”:[{“id”:”8a818497684bb82701684bc1a4d60008”,”version”:null,”createTime”:null,”creatorId”:null,”creatorName”:null,”creatorDepartmentId”:null,”creatorDepartmentName”:null,”updateTime”:null,”updatorId”:null,”updatorName”:null,”updatorDepartmentId”:null,”updatorDepartmentName”:null,”current”:1,”rowCount”:10,”deleted”:false,”bzId”:null,”currentUser”:null,”isForbidden”:0,”channelId”:”8a808552650f8c37016537b5d6456acf”,”channelCode”:null,”channelName”:”上海申服信息科技有限公司”,”nonTaxQuotations”:19999.4800,”evaluateFinalPrice”:519999.4800,”finalPrice”:19999.4800,”unitePrice”:4999.8700,”invoiceTypeId”:1,”taxPoint”:0.0,”tax”:0.0000,”finalSupplier”:null,”remarks”:””,”orderNumber”:null,”isChecked”:1,”materialInformationId”:”a44db338443749fcbe9d40c0ab74edb0”,”purchaseItemId”:”505b3fc86ce74b5e804488c7525efcbf”,”purchaseItemName”:”平板电脑”,”purchasingParameters”:null,”haveBeenCreated”:1,”businessScore”:null,”expertScore”:null,”procurementQuantity”:4},{“id”:”8a818497684bb82701684bc1a4d60009”,”version”:null,”createTime”:null,”creatorId”:null,”creatorName”:null,”creatorDepartmentId”:null,”creatorDepartmentName”:null,”updateTime”:null,”updatorId”:null,”updatorName”:null,”updatorDepartmentId”:null,”updatorDepartmentName”:null,”current”:1,”rowCount”:10,”deleted”:false,”bzId”:null,”currentUser”:null,”isForbidden”:0,”channelId”:”8a808553650f8eb10165363c683960f7”,”channelCode”:null,”channelName”:”上海绎维软件系统有限公司”,”nonTaxQuotations”:26143.7600,”evaluateFinalPrice”:26666.6400,”finalPrice”:26666.6400,”unitePrice”:6666.6600,”invoiceTypeId”:0,”taxPoint”:2.0,”tax”:522.8800,”finalSupplier”:null,”remarks”:””,”orderNumber”:null,”isChecked”:1,”materialInformationId”:”a44db338443749fcbe9d40c0ab74edb0”,”purchaseItemId”:”505b3fc86ce74b5e804488c7525efcbf”,”purchaseItemName”:”平板电脑”,”purchasingParameters”:null,”haveBeenCreated”:1,”businessScore”:null,”expertScore”:null,”procurementQuantity”:4},{“id”:”8a818497684bb82701684bc1a4d7000a”,”version”:null,”createTime”:null,”creatorId”:null,”creatorName”:null,”creatorDepartmentId”:null,”creatorDepartmentName”:null,”updateTime”:null,”updatorId”:null,”updatorName”:null,”updatorDepartmentId”:null,”updatorDepartmentName”:null,”current”:1,”rowCount”:10,”deleted”:false,”bzId”:null,”currentUser”:null,”isForbidden”:0,”channelId”:”8a808553650f8eb10165362bd83c6080”,”channelCode”:null,”channelName”:”上海新晨信息集成系统有限公司”,”nonTaxQuotations”:79.2100,”evaluateFinalPrice”:80.0000,”finalPrice”:80.0000,”unitePrice”:20.0000,”invoiceTypeId”:0,”taxPoint”:1.0,”tax”:0.7900,”finalSupplier”:null,”remarks”:””,”orderNumber”:null,”isChecked”:1,”materialInformationId”:”a44db338443749fcbe9d40c0ab74edb0”,”purchaseItemId”:”505b3fc86ce74b5e804488c7525efcbf”,”purchaseItemName”:”平板电脑”,”purchasingParameters”:null,”haveBeenCreated”:1,”businessScore”:null,”expertScore”:null,”procurementQuantity”:4}],”purchasingParameters”:”</em>“,”costSavingType”:2,”purchaseItemId”:”505b3fc86ce74b5e804488c7525efcbf”,”isForbidden”:0,”isSaved”:”1”,”saveMoney”:7777.7700}]<br>        //对arr来进行循环<br>        // console.log(arr,”++++”)<br>        var dealDataArray = this.dealData(arr);<br>        console.log(dealDataArray,”+++”)<br>        function dealData (arr){<br>            for(let m=0;m&lt;arr.length;m++){<br>                let objList =[];<br>                for(let k=0;k&lt;arr[m].singleItemSupplierList.length;k++){<br>                    objList[k]= this.args(arr[m].singleItemSupplierList[k]);<br>                }<br>                arr[m].singleItemSupplierList = objList;<br>            }<br>            return arr;<br>        }</p>
+<pre><code>function args() {
+  for (const arg of arguments) {
+    let obj = {
+        id:arg.id,
+        channelId:arg.channelId,
+        channelName:arg.channelName,
+        nonTaxQuotations:arg.nonTaxQuotations,//报价不含税
+        finalPrice:arg.finalPrice,//最终价格
+        invoiceTypeId:arg.invoiceTypeId,//发票类型
+        taxPoint:arg.taxPoint,// 税点
+        tax:arg.tax, //税金
+        remarks:arg.remarks,//&quot;备注
+        unitePrice:arg.unitePrice,//单价报价
+        isChecked:arg.isChecked,//是否选中,
+           procurementQuantity:arg.procurementQuantity,
+           isForbidden:arg.isForbidden
+    }
+    return obj;
+  }
+}var arr = [{&quot;purchaseItemName&quot;:&quot;ABS系统&quot;,&quot;singleItemSupplierList&quot;:[{&quot;id&quot;:&quot;8a818497684bb82701684bc1a4d30005&quot;,&quot;version&quot;:null,&quot;createTime&quot;:null,&quot;creatorId&quot;:null,&quot;creatorName&quot;:null,&quot;creatorDepartmentId&quot;:null,&quot;creatorDepartmentName&quot;:null,&quot;updateTime&quot;:null,&quot;updatorId&quot;:null,&quot;updatorName&quot;:null,&quot;updatorDepartmentId&quot;:null,&quot;updatorDepartmentName&quot;:null,&quot;current&quot;:1,&quot;rowCount&quot;:10,&quot;deleted&quot;:false,&quot;bzId&quot;:null,&quot;currentUser&quot;:null,&quot;isForbidden&quot;:0,&quot;channelId&quot;:&quot;8a808552650f8c37016537b5d6456acf&quot;,&quot;channelCode&quot;:null,&quot;channelName&quot;:&quot;上海申服信息科技有限公司&quot;,&quot;nonTaxQuotations&quot;:416666.6700,&quot;evaluateFinalPrice&quot;:519999.4800,&quot;finalPrice&quot;:500000.0000,&quot;unitePrice&quot;:500000.0000,&quot;invoiceTypeId&quot;:1,&quot;taxPoint&quot;:20.0,&quot;tax&quot;:83333.3300,&quot;finalSupplier&quot;:null,&quot;remarks&quot;:&quot;1111&quot;,&quot;orderNumber&quot;:null,&quot;isChecked&quot;:1,&quot;materialInformationId&quot;:&quot;2ebe4b8e770a4e599c20064230b5f7fb&quot;,&quot;purchaseItemId&quot;:&quot;62a035e5d0fa4564af9722433610dd7f&quot;,&quot;purchaseItemName&quot;:&quot;ABS系统&quot;,&quot;purchasingParameters&quot;:null,&quot;haveBeenCreated&quot;:1,&quot;businessScore&quot;:null,&quot;expertScore&quot;:null,&quot;procurementQuantity&quot;:1},{&quot;id&quot;:&quot;8a818497684bb82701684bc1a4d40006&quot;,&quot;version&quot;:null,&quot;createTime&quot;:null,&quot;creatorId&quot;:null,&quot;creatorName&quot;:null,&quot;creatorDepartmentId&quot;:null,&quot;creatorDepartmentName&quot;:null,&quot;updateTime&quot;:null,&quot;updatorId&quot;:null,&quot;updatorName&quot;:null,&quot;updatorDepartmentId&quot;:null,&quot;updatorDepartmentName&quot;:null,&quot;current&quot;:1,&quot;rowCount&quot;:10,&quot;deleted&quot;:false,&quot;bzId&quot;:null,&quot;currentUser&quot;:null,&quot;isForbidden&quot;:0,&quot;channelId&quot;:&quot;8a8085c25a11ffb1015ab0a9863511ce&quot;,&quot;channelCode&quot;:null,&quot;channelName&quot;:&quot;中通天鸿（北京）通信科技股份有限公司&quot;,&quot;nonTaxQuotations&quot;:495049.5000,&quot;evaluateFinalPrice&quot;:499999.9900,&quot;finalPrice&quot;:499999.9900,&quot;unitePrice&quot;:499999.9900,&quot;invoiceTypeId&quot;:0,&quot;taxPoint&quot;:1.0,&quot;tax&quot;:4950.4900,&quot;finalSupplier&quot;:null,&quot;remarks&quot;:&quot;&quot;,&quot;orderNumber&quot;:null,&quot;isChecked&quot;:1,&quot;materialInformationId&quot;:&quot;2ebe4b8e770a4e599c20064230b5f7fb&quot;,&quot;purchaseItemId&quot;:&quot;62a035e5d0fa4564af9722433610dd7f&quot;,&quot;purchaseItemName&quot;:&quot;ABS系统&quot;,&quot;purchasingParameters&quot;:null,&quot;haveBeenCreated&quot;:1,&quot;businessScore&quot;:null,&quot;expertScore&quot;:null,&quot;procurementQuantity&quot;:1},{&quot;id&quot;:&quot;8a818497684bb82701684bc1a4d50007&quot;,&quot;version&quot;:null,&quot;createTime&quot;:null,&quot;creatorId&quot;:null,&quot;creatorName&quot;:null,&quot;creatorDepartmentId&quot;:null,&quot;creatorDepartmentName&quot;:null,&quot;updateTime&quot;:null,&quot;updatorId&quot;:null,&quot;updatorName&quot;:null,&quot;updatorDepartmentId&quot;:null,&quot;updatorDepartmentName&quot;:null,&quot;current&quot;:1,&quot;rowCount&quot;:10,&quot;deleted&quot;:false,&quot;bzId&quot;:null,&quot;currentUser&quot;:null,&quot;isForbidden&quot;:0,&quot;channelId&quot;:&quot;8a808553650f8eb10165362bd83c6080&quot;,&quot;channelCode&quot;:null,&quot;channelName&quot;:&quot;上海新晨信息集成系统有限公司&quot;,&quot;nonTaxQuotations&quot;:0.0000,&quot;evaluateFinalPrice&quot;:80.0000,&quot;finalPrice&quot;:0.0000,&quot;unitePrice&quot;:0.0000,&quot;invoiceTypeId&quot;:1,&quot;taxPoint&quot;:0.0,&quot;tax&quot;:0.0000,&quot;finalSupplier&quot;:null,&quot;remarks&quot;:&quot;&quot;,&quot;orderNumber&quot;:null,&quot;isChecked&quot;:1,&quot;materialInformationId&quot;:&quot;2ebe4b8e770a4e599c20064230b5f7fb&quot;,&quot;purchaseItemId&quot;:&quot;62a035e5d0fa4564af9722433610dd7f&quot;,&quot;purchaseItemName&quot;:&quot;ABS系统&quot;,&quot;purchasingParameters&quot;:null,&quot;haveBeenCreated&quot;:1,&quot;businessScore&quot;:null,&quot;expertScore&quot;:null,&quot;procurementQuantity&quot;:1}],&quot;purchasingParameters&quot;:&quot;*&quot;,&quot;costSavingType&quot;:1,&quot;purchaseItemId&quot;:&quot;62a035e5d0fa4564af9722433610dd7f&quot;,&quot;isForbidden&quot;:0,&quot;isSaved&quot;:&quot;1&quot;,&quot;saveMoney&quot;:10000.0000},{&quot;purchaseItemName&quot;:&quot;平板电脑&quot;,&quot;singleItemSupplierList&quot;:[{&quot;id&quot;:&quot;8a818497684bb82701684bc1a4d60008&quot;,&quot;version&quot;:null,&quot;createTime&quot;:null,&quot;creatorId&quot;:null,&quot;creatorName&quot;:null,&quot;creatorDepartmentId&quot;:null,&quot;creatorDepartmentName&quot;:null,&quot;updateTime&quot;:null,&quot;updatorId&quot;:null,&quot;updatorName&quot;:null,&quot;updatorDepartmentId&quot;:null,&quot;updatorDepartmentName&quot;:null,&quot;current&quot;:1,&quot;rowCount&quot;:10,&quot;deleted&quot;:false,&quot;bzId&quot;:null,&quot;currentUser&quot;:null,&quot;isForbidden&quot;:0,&quot;channelId&quot;:&quot;8a808552650f8c37016537b5d6456acf&quot;,&quot;channelCode&quot;:null,&quot;channelName&quot;:&quot;上海申服信息科技有限公司&quot;,&quot;nonTaxQuotations&quot;:19999.4800,&quot;evaluateFinalPrice&quot;:519999.4800,&quot;finalPrice&quot;:19999.4800,&quot;unitePrice&quot;:4999.8700,&quot;invoiceTypeId&quot;:1,&quot;taxPoint&quot;:0.0,&quot;tax&quot;:0.0000,&quot;finalSupplier&quot;:null,&quot;remarks&quot;:&quot;&quot;,&quot;orderNumber&quot;:null,&quot;isChecked&quot;:1,&quot;materialInformationId&quot;:&quot;a44db338443749fcbe9d40c0ab74edb0&quot;,&quot;purchaseItemId&quot;:&quot;505b3fc86ce74b5e804488c7525efcbf&quot;,&quot;purchaseItemName&quot;:&quot;平板电脑&quot;,&quot;purchasingParameters&quot;:null,&quot;haveBeenCreated&quot;:1,&quot;businessScore&quot;:null,&quot;expertScore&quot;:null,&quot;procurementQuantity&quot;:4},{&quot;id&quot;:&quot;8a818497684bb82701684bc1a4d60009&quot;,&quot;version&quot;:null,&quot;createTime&quot;:null,&quot;creatorId&quot;:null,&quot;creatorName&quot;:null,&quot;creatorDepartmentId&quot;:null,&quot;creatorDepartmentName&quot;:null,&quot;updateTime&quot;:null,&quot;updatorId&quot;:null,&quot;updatorName&quot;:null,&quot;updatorDepartmentId&quot;:null,&quot;updatorDepartmentName&quot;:null,&quot;current&quot;:1,&quot;rowCount&quot;:10,&quot;deleted&quot;:false,&quot;bzId&quot;:null,&quot;currentUser&quot;:null,&quot;isForbidden&quot;:0,&quot;channelId&quot;:&quot;8a808553650f8eb10165363c683960f7&quot;,&quot;channelCode&quot;:null,&quot;channelName&quot;:&quot;上海绎维软件系统有限公司&quot;,&quot;nonTaxQuotations&quot;:26143.7600,&quot;evaluateFinalPrice&quot;:26666.6400,&quot;finalPrice&quot;:26666.6400,&quot;unitePrice&quot;:6666.6600,&quot;invoiceTypeId&quot;:0,&quot;taxPoint&quot;:2.0,&quot;tax&quot;:522.8800,&quot;finalSupplier&quot;:null,&quot;remarks&quot;:&quot;&quot;,&quot;orderNumber&quot;:null,&quot;isChecked&quot;:1,&quot;materialInformationId&quot;:&quot;a44db338443749fcbe9d40c0ab74edb0&quot;,&quot;purchaseItemId&quot;:&quot;505b3fc86ce74b5e804488c7525efcbf&quot;,&quot;purchaseItemName&quot;:&quot;平板电脑&quot;,&quot;purchasingParameters&quot;:null,&quot;haveBeenCreated&quot;:1,&quot;businessScore&quot;:null,&quot;expertScore&quot;:null,&quot;procurementQuantity&quot;:4},{&quot;id&quot;:&quot;8a818497684bb82701684bc1a4d7000a&quot;,&quot;version&quot;:null,&quot;createTime&quot;:null,&quot;creatorId&quot;:null,&quot;creatorName&quot;:null,&quot;creatorDepartmentId&quot;:null,&quot;creatorDepartmentName&quot;:null,&quot;updateTime&quot;:null,&quot;updatorId&quot;:null,&quot;updatorName&quot;:null,&quot;updatorDepartmentId&quot;:null,&quot;updatorDepartmentName&quot;:null,&quot;current&quot;:1,&quot;rowCount&quot;:10,&quot;deleted&quot;:false,&quot;bzId&quot;:null,&quot;currentUser&quot;:null,&quot;isForbidden&quot;:0,&quot;channelId&quot;:&quot;8a808553650f8eb10165362bd83c6080&quot;,&quot;channelCode&quot;:null,&quot;channelName&quot;:&quot;上海新晨信息集成系统有限公司&quot;,&quot;nonTaxQuotations&quot;:79.2100,&quot;evaluateFinalPrice&quot;:80.0000,&quot;finalPrice&quot;:80.0000,&quot;unitePrice&quot;:20.0000,&quot;invoiceTypeId&quot;:0,&quot;taxPoint&quot;:1.0,&quot;tax&quot;:0.7900,&quot;finalSupplier&quot;:null,&quot;remarks&quot;:&quot;&quot;,&quot;orderNumber&quot;:null,&quot;isChecked&quot;:1,&quot;materialInformationId&quot;:&quot;a44db338443749fcbe9d40c0ab74edb0&quot;,&quot;purchaseItemId&quot;:&quot;505b3fc86ce74b5e804488c7525efcbf&quot;,&quot;purchaseItemName&quot;:&quot;平板电脑&quot;,&quot;purchasingParameters&quot;:null,&quot;haveBeenCreated&quot;:1,&quot;businessScore&quot;:null,&quot;expertScore&quot;:null,&quot;procurementQuantity&quot;:4}],&quot;purchasingParameters&quot;:&quot;*&quot;,&quot;costSavingType&quot;:2,&quot;purchaseItemId&quot;:&quot;505b3fc86ce74b5e804488c7525efcbf&quot;,&quot;isForbidden&quot;:0,&quot;isSaved&quot;:&quot;1&quot;,&quot;saveMoney&quot;:7777.7700}]
+//对arr来进行循环
+// console.log(arr,&quot;++++&quot;)
+var dealDataArray = this.dealData(arr);
+console.log(dealDataArray,&quot;+++&quot;)
+function dealData (arr){
+    for(let m=0;m&lt;arr.length;m++){
+        let objList =[];
+        for(let k=0;k&lt;arr[m].singleItemSupplierList.length;k++){
+            objList[k]= this.args(arr[m].singleItemSupplierList[k]);
+        }
+        arr[m].singleItemSupplierList = objList;
+    }
+    return arr;
+}
+
+
+function args() {
+  for (const arg of arguments) {
+    let obj = {
+        id:arg.id,
+        channelId:arg.channelId,
+        channelName:arg.channelName,
+        nonTaxQuotations:arg.nonTaxQuotations,//报价不含税
+        finalPrice:arg.finalPrice,//最终价格
+        invoiceTypeId:arg.invoiceTypeId,//发票类型
+        taxPoint:arg.taxPoint,// 税点
+        tax:arg.tax, //税金
+        remarks:arg.remarks,//&quot;备注
+        unitePrice:arg.unitePrice,//单价报价
+        isChecked:arg.isChecked,//是否选中,
+           procurementQuantity:arg.procurementQuantity,
+           isForbidden:arg.isForbidden
+    }
+    return obj;
+  }
+}
+</code></pre>
+		  	  
+	</div>
+
+	<div class="article-bottom">
+		<a class="article-readmore" href="/hexo/2019/03/15/dealData/">阅读更多</a> 	
+	</div>	
+    
+</article>     
+     	
+    	  	
+  		
+    			
+
+<article class="article">		
+	   
+	<div class="article-header">
+	    
 		<a class="article-title" href="/hexo/2018/09/18/index3/">高效的利用时间</a>  
 	       
 		 
@@ -327,8 +418,10 @@
 		
 		<div class="footer-copyright">
 		&copy;
+				
+		2018-
 		
-		2018		
+		2019		
 	
 		胖林
 		<br>
